@@ -210,7 +210,7 @@ function toggleCart() {
 }
 
 // ---------- BACKEND API CALLS ----------
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = '/api';
 
 async function registerUser(userData) {
     const res = await fetch(`${API_BASE}/register`, {
